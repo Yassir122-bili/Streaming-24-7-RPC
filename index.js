@@ -42,7 +42,7 @@ client.on("ready", async () => {
     .addButton("Portfolio", "https://guns.lol/alex_yass")
     .addButton(
       "Github",
-      "https://guns.lol/alex_yass",
+      "https://github.com/yassirbili1",
     );
 
   client.user.setActivity(r);
