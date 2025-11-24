@@ -32,11 +32,11 @@ client.on("ready", async () => {
     .setDetails(`! 𝐀 𝐋 𝐄 𝐗 🔱 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
-      "IMAGE",
+      ""IMAGE"",
     ) //You can put links in tenor or discord and etc.
     .setAssetsLargeText("₊ ⁺✩ 𝐋𝐚 𝐟𝐚𝐦𝐢𝐥𝐢𝐚 𝐄𝐬 𝐓𝐨𝐝𝐨𝐬 🔱") //Text when you hover the Large image
     .setAssetsSmallImage(
-      "IMAGES",
+      ""IMAGES"",
     ) //You can put links in tenor or discord and etc.
     .setAssetsSmallText("Verified") //Text when you hover the Small image
     .addButton("Portfolio", "https://guns.lol/alex_yass")
