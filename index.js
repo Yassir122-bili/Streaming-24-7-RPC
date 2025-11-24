@@ -24,25 +24,25 @@ client.on("ready", async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence(client)
-    .setApplicationId("1426964594215227456")
+    .setApplicationId("1351417218902265916")
     .setType("STREAMING")
-    .setURL("https://www.youtube.com/watch?v=oHg5SJYRHA0") //Must be a youtube video link
-    .setState("Captivates Me")
-    .setName("Is this really love?")
-    .setDetails(`Captivates Me [${formatTime()}]`)
+    .setURL("https://www.twitch.tv/alex_jbad") //Must be a youtube video link
+    .setState("₊ ⁺✩ 𝟑𝐈𝐂𝐇 𝐎𝐔 𝐍𝐒𝐀 😁💪")
+    .setName("₊ ⁺✩ 𝟑𝐈𝐂𝐇 𝐎𝐔 𝐍𝐒𝐀 😁💪")
+    .setDetails(`! 𝐀 𝐋 𝐄 𝐗 🔱 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
-      "https://media.discordapp.net/attachments/1430232655802138734/1430232675104329779/image0.png?ex=68f9077a&is=68f7b5fa&hm=b7b4e4f909e06551333361f7f5f923e8e4ce3bf6d2efefa5e6a3d074459e5b49&=&format=webp&quality=lossless",
+      "https://cdn.discordapp.com/attachments/1238885204270256139/1419276059177648138/lv_7377528269479922951_20240928225126.gif?ex=69258b55&is=692439d5&hm=fba638fe61f22dbfe409d591f201c5aafd9686da02c14a0614ca92e338ed73bf&",
     ) //You can put links in tenor or discord and etc.
-    .setAssetsLargeText("I have fallen for you") //Text when you hover the Large image
+    .setAssetsLargeText("₊ ⁺✩ 𝐋𝐚 𝐟𝐚𝐦𝐢𝐥𝐢𝐚 𝐄𝐬 𝐓𝐨𝐝𝐨𝐬 🔱") //Text when you hover the Large image
     .setAssetsSmallImage(
-      "https://media.discordapp.net/attachments/1430232655802138734/1430232703911071824/heart-beating-heart.png?ex=68f90781&is=68f7b601&hm=e0e6f7e840f4d80bcd0569dae8460785b0d2ba5095e4a177772c1531a50c87a9&=&format=webp&quality=lossless",
+      "https://cdn.discordapp.com/attachments/1238885204270256139/1419276066274545665/7177-red-verify.gif?ex=69258b57&is=692439d7&hm=979b828459f24f57ecda3f378bd06f4d658d8582728041c7bdad7199e836899f&",
     ) //You can put links in tenor or discord and etc.
-    .setAssetsSmallText("Im obsessed with you") //Text when you hover the Small image
-    .addButton("Portfolio", "https://e-z.bio/developer")
+    .setAssetsSmallText("Verified") //Text when you hover the Small image
+    .addButton("Portfolio", "https://guns.lol/alex_yass")
     .addButton(
-      "Subscribe",
-      "https://www.youtube.com/@Jenna_YTthegoat",
+      "Github",
+      "https://guns.lol/alex_yass",
     );
 
   client.user.setActivity(r);
@@ -52,7 +52,7 @@ client.on("ready", async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Those Eyes [${newTime}]`;
+      const newDetails = `! 𝐀 𝐋 𝐄 𝐗 🔱 [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
