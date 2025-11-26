@@ -34,7 +34,7 @@ client.on("ready", async () => {
     .setAssetsLargeImage(
       "https://cdn.discordapp.com/attachments/1238885204270256139/1419276059177648138/lv_7377528269479922951_20240928225126.gif?ex=69258b55&is=692439d5&hm=fba638fe61f22dbfe409d591f201c5aafd9686da02c14a0614ca92e338ed73bf&",
     ) //You can put links in tenor or discord and etc.
-    .setAssetsLargeText("₊ ⁺✩ 𝐋𝐚 𝐟𝐚𝐦𝐢𝐥𝐢𝐚 𝐄𝐬 𝐓𝐨𝐝𝐨𝐬 🔱") //Text when you hover the Large image
+    .setAssetsLargeText("₊ ⁺✩ 𝐇𝐄𝐀𝐑𝐓𝐋𝐄𝐒𝐒 💢") //Text when you hover the Large image
     .setAssetsSmallImage(
       "https://cdn.discordapp.com/attachments/1238885204270256139/1419276066274545665/7177-red-verify.gif?ex=69258b57&is=692439d7&hm=979b828459f24f57ecda3f378bd06f4d658d8582728041c7bdad7199e836899f&",
     ) //You can put links in tenor or discord and etc.
