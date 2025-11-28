@@ -29,7 +29,7 @@ client.on("ready", async () => {
     .setURL("https://www.twitch.tv/alex_jbad") //Must be a youtube video link
     .setState("₊ ⁺✩ 𝟑𝐈𝐂𝐇 𝐎𝐔 𝐍𝐒𝐀 😁💪")
     .setName("₊ ⁺✩ 𝟑𝐈𝐂𝐇 𝐎𝐔 𝐍𝐒𝐀 😁💪")
-    .setDetails(`! 𝐀 𝐋 𝐄 𝐗 🔱 [${formatTime()}]`)
+    .setDetails(`! 𝐀 𝐋 𝐄 𝐗 💢 [${formatTime()}]`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
       "https://cdn.discordapp.com/attachments/1238885204270256139/1419276059177648138/lv_7377528269479922951_20240928225126.gif?ex=69258b55&is=692439d5&hm=fba638fe61f22dbfe409d591f201c5aafd9686da02c14a0614ca92e338ed73bf&",
@@ -52,7 +52,7 @@ client.on("ready", async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `! 𝐀 𝐋 𝐄 𝐗 🔱 [${newTime}]`;
+      const newDetails = `! 𝐀 𝐋 𝐄 𝐗 💢 [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
